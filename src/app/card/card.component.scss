@@ -1,0 +1,29 @@
+@import "../partials/colors.scss";
+@import "../partials/fonts.scss";
+
+.card {
+
+    padding: 2px 16px;
+
+    font-size: 16px;
+    font-family: $contentFont;
+    color: $textonprimary;
+    width: 40%;
+
+    .portada{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        h2 {
+            align-self: center;
+            font-size: 24px;
+            font-family: $titlesFont;
+            color: $textonprimary;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+}

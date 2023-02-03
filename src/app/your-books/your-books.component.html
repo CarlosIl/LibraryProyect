@@ -1,0 +1,7 @@
+<div class="libros">
+    <div *ngFor="let libro of libros">
+        <!-- [rutaPortada]="item.rutaPortada" -->
+        <app-card [rutaPortada]="libro.rutaPortada" [tituloLibro]="libro.tituloLibro" [resumen]="libro.resumen"
+            [enlaceAmazon]="libro.enlaceAmazon"></app-card>
+    </div>
+</div>

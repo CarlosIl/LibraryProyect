@@ -1,0 +1,15 @@
+
+@import "../partials/colors.scss";
+@import "../partials/fonts.scss";
+
+header{
+    background-color: $primary_dk;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        font-size: 24px;
+        font-family: $contentFont;
+        color: $textonprimary;
+    }
+}

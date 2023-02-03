@@ -1,0 +1,18 @@
+@import "../partials/colors.scss";
+@import "../partials/fonts.scss";
+
+nav{
+    background-color: $primary_lg; 
+    display: flex;
+    ul{
+        li{
+            display: inline;
+            padding: 8px;
+            font-size: 16px;
+            font-family: $menuFont;
+            .active-link{
+                background-color: $primary;
+            }
+        }
+    }
+}
